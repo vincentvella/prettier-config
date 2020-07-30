@@ -12,6 +12,6 @@ In `.prettierrc`:
 
 ```json
 {
-  "extends": "@vellapps/eslint-config"
+  "extends": "@vellapps/prettier-config"
 }
 ```
