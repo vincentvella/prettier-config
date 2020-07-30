@@ -1,0 +1,24 @@
+{
+  "name": "@vellapps/prettier-config",
+  "version": "0.0.0-development",
+  "description": "Eslint config initially forked from William Candillon, wanted something similar to his I could publish and download for myself.",
+  "main": "index.js",
+  "scripts": {
+    "format-config": "prettier -c index.js index.js --fix",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vincentvella/prettier-config.git"
+  },
+  "author": "Vincent Vella <vincevella0@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vincentvella/prettier-config/issues"
+  },
+  "homepage": "https://github.com/vincentvella/prettier-config#readme",
+  "devDependencies": {
+    "semantic-release": "^17.0.7",
+    "semantic-release-cli": "^5.2.3"
+  }
+}
